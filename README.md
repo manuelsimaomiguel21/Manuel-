@@ -176,7 +176,6 @@ Formulário
             <label for="instituicao">Instituição:</label>
             <input type="text" id="instituicao" name="instituicao" value="Instituto Médio Comercial de Luanda" required><br>
         </fieldset>
-
 </body>
 </html>
 
