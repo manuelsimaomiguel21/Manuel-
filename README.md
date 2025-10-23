@@ -125,6 +125,63 @@ TABELA de Dados
 </table>
 
 
+Formulário 
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Candidatura Curto</title>
+</head>
+<body>
+
+    <form action="/submissao-candidato-curto" method="POST" enctype="multipart/form-data">
+        <h2>Formulário de Candidatura Profissional - CURTO</h2>
+
+        <fieldset>
+            <legend>Dados Pessoais Chave</legend>
+            
+            <label for="nome">Nome Completo:</label>
+            <input type="text" id="nome" name="nome" value="Manuel Simão Miguel" required><br><br>
+
+            <label for="documento">N.º do Bilhete de Identidade:</label>
+            <input type="text" id="documento" name="bilhete" pattern="[A-Z0-9]{14}" title="Formato: 14 caracteres alfanuméricos" value="023078113LA052" required><br><br>
+
+            <label for="nascimento">Data de Nascimento:</label>
+            <input type="date" id="nascimento" name="data_nascimento" value="2004-01-15" required><br><br>
+            
+            <label for="contacto">Contacto Principal:</label>
+            <input type="tel" id="contacto" name="contacto" value="942522308" required><br><br>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" value="manuelsimaomiguel21@gmail.com" required><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Dados Académicos (Última Habilitação)</legend>
+            
+            <label for="nivel">Nível Académico:</label>
+            <select id="nivel" name="nivel" required>
+                <option value="">Selecione</option>
+                <option value="basico">Ensino Básico</option>
+                <option value="medio">Ensino Médio</option>
+                <option value="licenciatura" selected>Licenciatura</option>
+                <option value="mestrado">Mestrado</option>
+            </select><br><br>
+            
+            <label for="curso">Designação do Curso:</label>
+            <input type="text" id="curso" name="curso" value="Engenharia Informática" required><br><br>
+            
+            <label for="instituicao">Instituição:</label>
+            <input type="text" id="instituicao" name="instituicao" value="Instituto Médio Comercial de Luanda" required><br>
+        </fieldset>
+
+</body>
+</html>
+
+
+
 
 
 
