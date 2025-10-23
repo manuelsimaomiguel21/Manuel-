@@ -1,4 +1,4 @@
-
+Ju
 
 
 # Manuel-
@@ -129,35 +129,8 @@ Formulário dados pessoais
 <!DOCTYPE html>
 <html lang="pt">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário de Candidatura Completo</title>
-    <style>
-        /* CSS simples para melhor visualização, você pode remover ou expandir isso */
-        body { font-family: Arial, sans-serif; margin: 20px; }
-        fieldset { border: 1px solid #ccc; padding: 15px; margin-bottom: 20px; border-radius: 5px; }
-        legend { font-weight: bold; padding: 0 10px; color: #333; }
-        label { display: inline-block; width: 150px; margin-bottom: 5px; }
-        input[type="text"], input[type="tel"], input[type="date"], input[type="number"], select, input[type="file"] {
-            width: 300px;
-            padding: 8px;
-            margin-bottom: 10px;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-            box-sizing: border-box; /* Inclui padding e borda na largura total */
-        }
-        input[type="submit"] {
-            background-color: #4CAF50;
-            color: white;
-            padding: 10px 15px;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            font-size: 16px;
-        }
-        input[type="submit"]:hover {
-            background-color: #45a049;
-        }
+  
+   
     </style>
 </head>
 <body>
